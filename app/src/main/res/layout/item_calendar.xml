@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:gravity="center"
+    android:minHeight="48dp">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="32dp"
+        android:gravity="center"
+        android:layout_height="32dp"
+        android:background="@drawable/calendar_item_ic_selected"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/cardDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/cardDay1"
+            style="@style/CalendarCard.Day"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="日" />
+
+        <TextView
+            android:id="@+id/cardDay2"
+            style="@style/CalendarCard.Day"
+            android:text="一" />
+
+        <TextView
+            android:id="@+id/cardDay3"
+            style="@style/CalendarCard.Day"
+            android:text="二" />
+
+        <TextView
+            android:id="@+id/cardDay4"
+            style="@style/CalendarCard.Day"
+            android:text="三" />
+
+        <TextView
+            android:id="@+id/cardDay5"
+            style="@style/CalendarCard.Day"
+            android:text="四" />
+
+        <TextView
+            android:id="@+id/cardDay6"
+            style="@style/CalendarCard.Day"
+            android:text="五" />
+
+        <TextView
+            android:id="@+id/cardDay7"
+            style="@style/CalendarCard.Day"
+            android:text="六" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#cccccc" />
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:focusable="false"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="7"
+        android:scrollbars="none" />
+
+</LinearLayout>
